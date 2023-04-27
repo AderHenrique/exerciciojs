@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: darkgray;
+}
+h1 {
+  margin-top: 200px;
+}
+section,
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.number {
+  text-align: center;
+  width: 400px;
+  height: 30px;
+}
+.submit {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1s;
+}
+.submit:hover {
+  background-color: black;
+  color: white;
+}
+
+.success-message {
+  background-color: green;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  display: none;
+}
